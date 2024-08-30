@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water's Fate</title>
+    <link rel="stylesheet" href="CSS/waters_fate_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Water's Fate</h1>
+    </header>
+
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About game</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="grid-section">
+            <div class="grid-item"><span class="grid-text">In the distant future, on a planet similar to ours, a catastrophe has nearly wiped out all of humanity. The main character, Alex, betrayed by his companions, finds himself at the bottom of the ocean. The Element of Water informs him that he is the Elect and can prevent the catastrophe. Empowered with the ability to breathe underwater, Alex must find an ancient altar at the ocean's depths.</span></div>
+            <div class="grid-item"><span class="grid-text">Players will explore various layers of the ocean, from Coral Reefs to the Dark Ridge, encountering dangerous creatures and obstacles along the way. If Alex perishes, the power of the Element of Water returns him to the moment of his betrayal, forcing him to start his journey anew. Help Alex complete his mission and break this endless ocean cycle.</span></div>
+            <div class="image-container">
+                <div class="image-item"><img src="pic1.png" alt="Screenshot 1" width="450"></div>
+                <div class="image-item"><img src="pic2.png" alt="Screenshot 1" width="450"></div>
+                <div class="image-item"><img src="pic3.png" alt="Screenshot 1" width="450"></div>
+            </div>
+        </section>
+
+        <section id="about" class="flex-section">
+            <div class="flex-item">Dev history</div>
+            <div class="flex-item">Important info</div>
+            <div class="flex-item">LL Team</div>
+        </section>
+
+        <section id="about" class="grid-about-section">
+            <div class="grid-item"><span class="grid-text">Development on Water's Fate began on June 14, when Mehu Jam 3 was launched. This Game Jam lasted for 2 days, which means that the game development lasted for 2 days. It was the first such experience. Unfortunately, not all LL Team members participated as they were busy. PabroWhat did all the main work, and Kai38 helped him with ideas and mechanics. Many things didn't make it into the game due to deadlines, but we think the result is still great!</span></div>
+            <div class="grid-item"><span class="grid-text">At the beginning of development the game was called: “Cycle Of Water's Fate”, but the title was too long and we shortened it to “Water's Fate”. It is worth telling about the things that were not included in the game. There were a lot of obstacles planned for your path: debris that was supposed to fly down from above, hot springs that shot hot water horizontally or vertically, lava springs that were supposed to be at great depths and release lava, poisonous plants, a sea devil mini-boss and much more. The area was also planned to be narrower at greater depths, adding to the difficulty of the game. Speaking of difficulty, though, it would have been worth working on the balance in the game... And also the ending of the game was supposed to look a little different, but due to timelines it looks the way it looks now.</span></div>
+            <div class="grid-item"><span class="grid-text">The following people worked on the game: PabroWhat (Game designer, artist, composer and so on), Kai38 (ideas and mechanics), MaeccQwbld (game tester)</span></div>
+        </section>
+    </main>
+    <aside>
+        <section id="contact" class="flex-section">
+            <h2>Feedback</h2>
+        </section>
+        <section class="contact-section">
+            <p class="grid-contact">Would you like to contact us? Fill out the following:</p>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" name="user_name" required>
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="user_email" required>
+                <br>
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="user_message" rows="4" cols="50" required></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Send">
+                <br>
+            </form>
+        </section>
+    </aside>
+
+    <footer>
+        <p>© 2024 LL Team. All rights reserved.</p>
+    </footer>
+</body>
+</html>
